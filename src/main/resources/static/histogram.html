@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/histogram.css">
+    <title>Histogram Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h3>Lower Bounds</h3>
+            <div class="grades-inputs">
+                <label for="max">Max</label>
+                <input type="text" id="max">
+                <label for="a-plus">A+</label>
+                <input type="text" id="a-plus">
+                <label for="a">A</label>
+                <input type="text" id="a">
+                <label for="a-minus">A-</label>
+                <input type="text" id="a-minus">
+                <label for="b-plus">B+</label>
+                <input type="text" id="b-plus">
+                <label for="b">B</label>
+                <input type="text" id="b">
+                <label for="b-minus">B-</label>
+                <input type="text" id="b-minus">
+                <label for="c-plus">C+</label>
+                <input type="text" id="c-plus">
+                <label for="c">C</label>
+                <input type="text" id="c">
+                <label for="c-minus">C-</label>
+                <input type="text" id="c-minus">
+                <label for="d-plus">D+</label>
+                <input type="text" id="d-plus">
+                <label for="d">D</label>
+                <input type="text" id="d">
+                <label for="d-minus">D-</label>
+                <input type="text" id="d-minus">
+                <label for="f">F</label>
+                <input type="text" id="f">
+            </div>
+        </div>
+
+        <div class="right-box">
+            <div class="histogram-box">
+                <h3>Histogram</h3>
+                <div class="grades-bars">
+                    <div class="grade-bar">
+                        <label for="a-plus-bar">A+</label>
+                        <div id="a-plus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="a-bar">A</label>
+                        <div id="a-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="a-minus-bar">A-</label>
+                        <div id="a-minus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="b-plus-bar">B+</label>
+                        <div id="b-plus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="b-bar">B</label>
+                        <div id="b-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="b-minus-bar">B-</label>
+                        <div id="b-minus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="c-plus-bar">C+</label>
+                        <div id="c-plus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="c-bar">C</label>
+                        <div id="c-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="c-minus-bar">C-</label>
+                        <div id="c-minus-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="d-bar">D</label>
+                        <div id="d-bar" class="bar"></div>
+                    </div>
+                    <div class="grade-bar">
+                        <label for="f-bar">F</label>
+                        <div id="f-bar" class="bar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-grade-box">
+                <label for="new-grade">New Grade</label>
+                <input type="text" id="new-grade">
+            </div>
+        </div>
+    </div>
+<script src="/js/calculate.js"></script>
+</body>
+</html>
